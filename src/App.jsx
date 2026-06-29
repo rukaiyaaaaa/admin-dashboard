@@ -1,17 +1,28 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import {Route, Routes} from 'react-router-dom'
+import OverviewPage from './Pages/OverviewPage'
+import ProductsPage from './Pages/ProductPage'
+import Sidebar from './components/SideBar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-   
-     
-    </>
+   <div className="flex h-screen bg-gray-900 text-gray-100 overflow-hidden">
+   {/* Background */}
+   <div className = "fixed inset-0 z-0">
+    <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 opacity-80" />
+    <div className="absolute inset-0 backdrop-blur-sm" />
+   </div>
+
+   {/* ---------------SideBar-------------------------------- */}
+
+   <Sidebar />
+
+   <Routes>
+    <Route path="/" element={<OverviewPage />} />
+    <Route path="/products" element={<ProductsPage />} />
+   </Routes>
+    
+   </div>
   )
 }
 
