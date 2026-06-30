@@ -2,7 +2,7 @@ import { useState } from 'react'
 import {Route, Routes} from 'react-router-dom'
 import OverviewPage from './Pages/OverviewPage'
 import ProductsPage from './Pages/ProductPage'
-import Sidebar from './components/SideBar'
+import Sidebar from './components/commonComponents/sidebar/SideBar'
 
 function App() {
   return (
