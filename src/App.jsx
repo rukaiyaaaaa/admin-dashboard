@@ -2,6 +2,12 @@ import { useState } from 'react'
 import {Route, Routes} from 'react-router-dom'
 import OverviewPage from './Pages/OverviewPage'
 import ProductsPage from './Pages/ProductPage'
+import UsersPage from './Pages/UsersPage'
+import SettingsPage from './Pages/SettingsPage'
+import SalesPage from './Pages/SalesPage'
+import AnalyticsPage from './Pages/AnalyticsPage'
+
+
 import Sidebar from './components/commonComponents/sidebar/SideBar'
 
 function App() {
@@ -20,6 +26,10 @@ function App() {
    <Routes>
     <Route path="/" element={<OverviewPage />} />
     <Route path="/products" element={<ProductsPage />} />
+    <Route path="/users" element={<UsersPage />} />
+    <Route path="/sales" element={<SalesPage />} />
+    <Route path="/settings" element={<SettingsPage />} />
+    <Route path="/analytics" element={<AnalyticsPage />} />
    </Routes>
     
    </div>
