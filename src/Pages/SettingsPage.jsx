@@ -2,6 +2,7 @@ import Header from "../components/commonComponents/header/Header"
 
 import Profile from "../components/settingsPage/Profile"
 import Notifications from "../components/settingsPage/Notifications"
+import Security from "../components/settingsPage/Security"
 import ConnectedAccounts from "../components/settingsPage/ConnectedAccounts"
 import DangerZone from "../components/settingsPage/DangerZone"
 function SettingsPage() {
