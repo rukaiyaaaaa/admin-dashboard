@@ -4,7 +4,7 @@ import OverviewCards from "../components/analyticsPage/OverviewCards"
 import RevenueChart from "../components/analyticsPage/RevenueChart"
 import ChannelPerformance from "../components/analyticsPage/ChannelPerformance"
 import UserRetention from "../components/analyticsPage/UserRetention"
-import CustomerSegmentation from "../Components/analyticsPage/CustomerSegmentation"
+import CustomerSegmentation from "../components/analyticsPage/CustomerSegmentation"
 import AIPoweredInsights from "../components/analyticsPage/AIPoweredInsights"
 import ProductPerformance from "../components/analyticsPage/ProductPerformance"
 
