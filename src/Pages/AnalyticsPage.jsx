@@ -1,4 +1,4 @@
-import Header from "../Components/commonComponents/header/Header"
+import Header from "../components/commonComponents/header/Header"
 
 import OverviewCards from "../components/analyticsPage/OverviewCards"
 import RevenueChart from "../components/analyticsPage/RevenueChart"
